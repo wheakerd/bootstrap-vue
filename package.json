@@ -1,0 +1,29 @@
+{
+	"name": "rspack-project",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "cross-env NODE_ENV=development rspack serve",
+		"build": "cross-env NODE_ENV=production rspack build"
+	},
+	"dependencies": {
+		"bootstrap": "5.3.3",
+		"vue": "^3.5.12"
+	},
+	"devDependencies": {
+		"@rspack/cli": "^1.0.13",
+		"@rspack/core": "^1.0.13",
+		"autoprefixer": "^10.4.20",
+		"browserslist": "^4.24.0",
+		"cross-env": "^7.0.3",
+		"postcss-loader": "^8.1.1",
+		"sass": "1.78.0",
+		"sass-loader": "^16.0.2",
+		"style-loader": "^4.0.0",
+		"ts-node": "^10.9.2",
+		"tsx": "^4.19.1",
+		"typescript": "^5.6.3",
+		"vue-loader": "^17.4.2",
+		"vue-router": "^4.4.5"
+	}
+}
